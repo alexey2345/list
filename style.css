@@ -1,0 +1,88 @@
+body {
+    background-image: url(Notpadpic.png);
+    background-color: #522280;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Set a minimum height to cover the entire viewport */
+}
+
+.frame {
+    background-color: #0077ff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%; /* Adjust width to fit different screen sizes */
+    max-width: 400px; /* Limit maximum width for larger screens */
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.input-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.input-container button:hover {
+    background-color: #45a049;
+}
+
+.list {
+    padding: 0;
+}
+
+.list li {
+    list-style-type: none;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list li button {
+    background-color: #f44336;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.list li button:hover {
+    background-color: #d32f2f;
+}
+
+.list li div {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.list li button,
+.list li div {
+    font-size: 16px;
+}
